@@ -1,19 +1,33 @@
-New Deals Stratategy - Sales Area
-In this real case (using artificial data), I built a database manually of companies segmented by revenue, headcount, industry, and pipeline situation. After doing this, I developed a Power BI dashboard to analyze how to generate new deals for the company.
+New Deals Strategy - Sales Area
 
-Context and disclaimer:
-The problem had a problem with revenue, which the numbers of revenue were good, but 70% of that revenue wasn't from new deals, they were from refreshing the actual contrats of big clients, which generated a fully dependence of their contracts, meaning that if one those contracts finished, our revenue numbers could fall down drastically. 
+In this real case (using artificial data), I built a database manually of companies segmented by revenue, headcount, industry, and pipeline situation. After that, I developed a Power BI dashboard to analyze how to generate new deals for the company.
 
-This project is based on a real case, but I used Claude AI to generate a new artificial data base, based on the DB that I created, which contained sensitive information of real people and real companies. 
-Also I would like to say that the support of AI in this project is related ONLY for the help of a balanced color theme, for creating the full artificial information and to get help with measure tool that Power BI offers. all the rest of the project was designed and thinked by me, since the strategy plan and all the graphics. 
+Context:
+The company had a revenue problem: the numbers looked good, but 70% of that revenue came from contract renewals rather than new deals. This created a full dependency on existing clients — if one of those contracts ended, revenue could fall drastically.
 
-Tools Used: 
-I used Excel for generating the Data Base, PowerBI for the dashboards and Claude for optimization process.
+Disclaimer:
+This project is based on a real case, but I used Claude AI to generate an artificial database based on the original one I created, which contained sensitive information of real people and companies.
+AI support in this project was limited to: helping with a color theme, generating the artificial data, and assisting with some Power BI DAX measures. Everything else was designed and developed by me, from the strategy plan to the dashboard itself.
 
-Dashboard Pages: 
+Tools Used:
+Excel · Power BI · Claude AI (data anonymization)
 
-Sheet 1 - Situation: I believe that knowing where we are stand at is key to understand how to proceed based on our actual situation and the problem, so for this, I created two dashboards and 4 cards that gives the stakeholders a general overview of the potential companies segmented by industry and province.
+Dashboard Pages:
+Sheet 1 - Overview: Two charts and 4 KPI cards that give a general overview of the pipeline, segmented by industry and province.
+Sheet 2 - Pipeline Analysis: Correlations between pipeline stage and industry, to identify which sectors have the most potential for new contracts.
+Sheet 3 - Top Companies: A table of the highest-revenue companies, to prioritize accounts with bigger contract potential.
+Sheet 4 - Action Plan Q1: A coordinated plan between Inside Sales and Account Managers, targeting high-revenue industries to reduce renewal dependency.
 
-Sheet 2 - Pipeline Analysis
+Key Insights
 
+1-Santa Fe, Córdoba and Mendoza concentrate most companies — focusing efforts here increases the chances of new deals.
+2-Manufacturing, Energy and Oil & Gas have the most high-revenue potential clients, making them the main targets.
+3-Government shows the highest meeting rate — worth investigating since government contracts tend to be large and stable.
+4-High volume of "Not Interested" accounts — raises questions about the current engagement strategy and outreach approach.
+
+Author
+Franco Zorzoli — Sales Operations & Data Analysis
+
+GitHub: github.com/FZorzoli
+LinkedIn: linkedin.com/in/francozorzoli
 
