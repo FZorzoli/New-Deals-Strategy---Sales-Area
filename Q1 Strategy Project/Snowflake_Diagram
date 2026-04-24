@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="lQG-PW7Eku_JB8v-t1_k">
+    <mxGraphModel dx="1933" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2TrMwc3-l_FBZhodroUU-36" edge="1" parent="1" source="2TrMwc3-l_FBZhodroUU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="2TrMwc3-l_FBZhodroUU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TrMwc3-l_FBZhodroUU-37" edge="1" parent="1" source="2TrMwc3-l_FBZhodroUU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="2TrMwc3-l_FBZhodroUU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TrMwc3-l_FBZhodroUU-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;DIMENSIÓN EMPRESAS&lt;/div&gt;&lt;div&gt;Cantidad de empleados&lt;/div&gt;&lt;div&gt;ID_Industria (Llave secundaria)&lt;/div&gt;&lt;div&gt;ID_Provincia (LLave secundaria)&lt;/div&gt;&lt;div&gt;ID_Empresa (Llave primaria)&lt;/div&gt;&lt;div&gt;Nombre de empresa&lt;/div&gt;" vertex="1">
+          <mxGeometry height="126" width="200" x="-550" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="2TrMwc3-l_FBZhodroUU-5" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="DIMENSION CONTACTOS&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ID_Contacto (Llave primaria)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Puesto&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ID_Empresa (Llave secundaria)&lt;/div&gt;&lt;div&gt;Nombre de contacto&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="210" x="30" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="2TrMwc3-l_FBZhodroUU-11" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="DIMENSION INDUSTRIA&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ID_Industria (Llave primaria)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Industria&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="103.5" width="193" x="-680" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="2TrMwc3-l_FBZhodroUU-13" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DIMENSION PROVINCIA&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ID_Provincia (Llave primaria)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Provincia&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="-280" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="2TrMwc3-l_FBZhodroUU-34" edge="1" parent="1" source="2TrMwc3-l_FBZhodroUU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="2TrMwc3-l_FBZhodroUU-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="690.2857142857144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TrMwc3-l_FBZhodroUU-35" edge="1" parent="1" source="2TrMwc3-l_FBZhodroUU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="2TrMwc3-l_FBZhodroUU-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-420" y="690.2857142857144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TrMwc3-l_FBZhodroUU-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;HECHO COMERCIAL&lt;/div&gt;&lt;div&gt;Monto cotizado&lt;/div&gt;&lt;div&gt;Num_Oportunidad&lt;/div&gt;&lt;div&gt;Revenue&lt;/div&gt;&lt;div&gt;ID_Empresa (Llave secundaria)&lt;/div&gt;&lt;div&gt;ID_Contacto (Llave secundaria)&lt;/div&gt;&lt;div&gt;Estado en salesforce&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="170" x="-220" y="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
